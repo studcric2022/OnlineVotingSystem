@@ -10,7 +10,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.get('/',(req,res)=>
-   res.json({hello:'worlds'})
+   res.json({hello:'worlds contributed by sumit---'})
 );
 app.use(handle.notFound);
 app.use(handle.errors);
